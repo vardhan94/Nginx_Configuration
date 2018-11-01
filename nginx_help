@@ -1,0 +1,31 @@
+>  wget http://nginx.org/download/nginx-1.8.0.tar.gz
+
+>  tar xzf nginx-1.8.0.tar.gz
+
+>cd nginx-1.8.0/
+
+>ls -al
+
+>sudo apt-cache search all | more (to search for build-essential package )
+
+>sudo apt-get install build-essential (contains gcc and make )
+
+>sudo apt-get update
+
+>sudo apt-get upgrade
+
+>gcc –version
+
+>make –version
+
+>sudo apt-get install libpcre3 (to implement regular expression )
+
+>sudo apt-get install libpcre3-dev(developement libraries for pcre)
+
+>sudo apt-get install openssl 
+
+>openssl version -a 
+
+>sudo apt-get install zlib1g zlib1g-dev
+
+>./configure –help
