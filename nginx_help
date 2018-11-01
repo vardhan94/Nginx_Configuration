@@ -29,3 +29,16 @@
 >sudo apt-get install zlib1g zlib1g-dev
 
 >./configure –help
+
+after running the available script do following steps 
+
+make 
+
+make install
+
+sudo wget -o /etc/init.d/nginx https://gist.githubusercontent.com/sairam/5892520/raw/b8195a71e944d46271c8a49f2717f70bcd04bf1a/etc-init.d-nginx
+
+sudo chmod +x /etc/init.d/nginx
+
+sudo update-rc.d nginx defaults
+
